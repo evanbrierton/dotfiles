@@ -8,3 +8,4 @@ echo "Host *
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519" > ~/.ssh/config
 eval "$(ssh-agent -s)"
+pbcopy < ~/.ssh/id_ed25519.pub

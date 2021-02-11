@@ -4,11 +4,11 @@
 # Homebrew
 ./brew.sh
 
-# Hyper
-./hyper.sh
-
 # Symbolic links
 ./links.sh
+
+# Hyper
+./hyper.sh
 
 # ssh
 ./ssh.sh

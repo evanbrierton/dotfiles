@@ -9,10 +9,6 @@ module.exports = {
       animate: true,
     },
 
-    hypest: {
-      darkmode: true,
-    },
-
     hyperCustomTouchbar: [
       // if you just need a single button then don't add options array
       { label: 'clear', command: 'clear', backgroundColor: '#d13232' },

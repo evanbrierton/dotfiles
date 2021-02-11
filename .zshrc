@@ -4,12 +4,13 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
-# Hyper config
+# ZSH config
 unsetopt PROMPT_SP
 
 # aliases
 alias brew="arch -arm64 brew"
 alias rm="trash"
+alias sshcopy="pbcopy < ~/.ssh/id_ed25519.pub"
 
 # PATH
 export PATH="/opt/homebrew/opt/icu4c/bin:$PATH"
