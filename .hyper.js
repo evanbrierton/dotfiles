@@ -2,6 +2,9 @@
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
 
+const username = 'evanbrierton'
+const resources = `/Users/${username}/.dotfiles/resources`
+
 module.exports = {
   config: {
     
@@ -13,23 +16,19 @@ module.exports = {
       // if you just need a single button then don't add options array
       { label: 'clear', command: 'clear', backgroundColor: '#d13232' },
       {
-        icon: '/tmp/icons8-git-36.png',
+        icon: `${resources}/img/touchbar/git.png`,
         options: [
-          { label: 'diff', command: 'git diff' },          
-          { label: 'status', command: 'git status' },  
-          { label: 'log', command: 'git log' },
-          { label: 'add .', command: 'git add .', icon: '/tmp/icons8-add-file-44.png', iconPosition: 'right' },
-          { label: 'clone', command: 'git clone ', prompt: true },
+          { label: 'add', command: 'git add .' },
+          { label: 'commit', command: 'git commit -m "', prompt: true },
+          { label: 'clone', command: 'git clone', prompt: true },
+          { label: 'pull', command: 'git pull' },
+          { label: 'push', command: 'git push' },
         ]
       },
       {
-        label: 'vim',
-        options: [
-          { label: 'quit', command: ':q!', esc: true },
-          { label: 'save & quit', command: ':x', esc: true },
-        ]
+        icon: `${resources}/img/touchbar/visual-studio-code.png`,
+        command: 'code .'
       },
-      { label: 'man', command: 'man ', prompt: true },
     ],
 
     // choose either `'stable'` for receiving highly polished,
