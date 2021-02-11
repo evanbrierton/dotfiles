@@ -1,14 +1,17 @@
+# Working directory
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
 # macOS settings
-./defaults.sh
+$DIR/defaults.sh
 
 # Homebrew
-./brew.sh
+$DIR/brew.sh
 
 # Symbolic links
-./links.sh
+$DIR/links.sh
 
 # Hyper
-./hyper.sh
+$DIR/hyper.sh
 
 # ssh
-./ssh.sh
+$DIR/ssh.sh

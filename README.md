@@ -16,9 +16,8 @@ git clone git@github.com:evanbrierton/dotfiles ~/.dotfiles
 git clone https://github.com/evanbrierton/dotfiles ~/.dotfiles
 ```
 
-3. Give permissions to setup scripts and run.
+3. Run setup script.
 
 ```zsh
-find ~/.dotfiles/ -type f -regex '.*\.\(sh\)$' -exec chmod +x {} +
-~/.dotfiles/scripts/setup.sh
+bash ~/.dotfiles/scripts/setup.sh
 ```
