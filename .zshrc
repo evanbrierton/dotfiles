@@ -15,3 +15,5 @@ alias sshcopy="pbcopy < ~/.ssh/id_ed25519.pub"
 # PATH
 export PATH="/opt/homebrew/opt/icu4c/bin:$PATH"
 export PATH="/opt/homebrew/opt/icu4c/sbin:$PATH"
+unset zle_bracketed_paste
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"

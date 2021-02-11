@@ -2,21 +2,20 @@
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
 
-const username = 'evanbrierton'
-const resources = `/Users/${username}/.dotfiles/resources`
-
 module.exports = {
   config: {
-    
-    hyperborder: {
-      animate: true,
+
+    hypest: {
+      darkmode: true,
+      accentColor: 'magenta',
+      // vibrancy: false,
     },
 
     hyperCustomTouchbar: [
       // if you just need a single button then don't add options array
       { label: 'clear', command: 'clear', backgroundColor: '#d13232' },
       {
-        icon: `${resources}/img/touchbar/git.png`,
+        icon: `/Users/evanbrierton/.dotfiles/resources/img/touchbar/git.png`,
         options: [
           { label: 'add', command: 'git add .' },
           { label: 'commit', command: 'git commit -m "', prompt: true },
@@ -26,7 +25,7 @@ module.exports = {
         ]
       },
       {
-        icon: `${resources}/img/touchbar/visual-studio-code.png`,
+        icon: `/Users/evanbrierton/.dotfiles/resources/img/touchbar/visual-studio-code.png`,
         command: 'code .'
       },
     ],
@@ -174,11 +173,13 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hyper-snazzy",
-    "hyperborder",
     "hyper-statusline",
-    "hyper-final-say",
-    "hyper-custom-touchbar"
+    "hyper-custom-touchbar",
+    "hyper-hypest",
+    "hyper-search",
+    "hyper-tab-icons",
+    "hyper-highlight-active-pane",
+    "hyper-tabs-enhanced"
   ],
 
   // in development, you can create a directory under
