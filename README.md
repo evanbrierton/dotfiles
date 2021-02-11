@@ -1,5 +1,7 @@
 ## Steps to bootstrap a new Mac
 
+**Note this will only work on an ARM based Mac if you have an Intel based Mac this may mess up your Homebrew installation.**
+
 1. Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew.
 
 ```zsh
