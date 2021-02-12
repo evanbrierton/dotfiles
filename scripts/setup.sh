@@ -7,7 +7,7 @@ $DIR/defaults.sh
 # Homebrew
 $DIR/brew.sh
 
-# Symbolic links
+# Symbolic Links
 $DIR/links.sh
 
 # Hyper
@@ -15,3 +15,6 @@ $DIR/hyper.sh
 
 # ssh
 $DIR/ssh.sh
+
+# Launch Agents
+$DIR/launchagents.sh

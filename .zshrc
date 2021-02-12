@@ -11,6 +11,7 @@ unsetopt PROMPT_SP
 alias brew="arch -arm64 brew"
 alias rm="trash"
 alias sshcopy="pbcopy < ~/.ssh/id_ed25519.pub"
+alias code="open -a Visual\ Studio\ Code"
 
 # PATH
 export PATH="/opt/homebrew/opt/icu4c/bin:$PATH"
