@@ -8,6 +8,8 @@ module.exports = {
     hypest: {
       darkmode: true,
       accentColor: 'magenta',
+      hideControls: false,
+      borders: true
       // vibrancy: false,
     },
 
@@ -182,8 +184,8 @@ module.exports = {
     "hyper-search",
     "hyper-tab-icons",
     "hyper-highlight-active-pane",
-    "hyper-tabs-enhanced",
-    "hyperhue",
+    // "hyper-tabs-enhanced",
+    // "hyperhue",
     "hyper-hypest"
   ],
 
