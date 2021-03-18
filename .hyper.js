@@ -28,6 +28,10 @@ module.exports = {
         icon: `/Users/evanbrierton/.dotfiles/resources/img/touchbar/visual-studio-code.png`,
         command: 'code .'
       },
+      {
+        icon: `/Users/evanbrierton/.dotfiles/resources/img/touchbar/crafting-table.png`,
+        command: 'ssh -t evanbrierton@home-server.local "~/Desktop/Server/start.command"',
+      },
     ],
 
     // choose either `'stable'` for receiving highly polished,
@@ -175,11 +179,12 @@ module.exports = {
   plugins: [
     "hyper-statusline",
     "hyper-custom-touchbar",
-    "hyper-hypest",
     "hyper-search",
     "hyper-tab-icons",
     "hyper-highlight-active-pane",
-    "hyper-tabs-enhanced"
+    "hyper-tabs-enhanced",
+    "hyperhue",
+    "hyper-hypest"
   ],
 
   // in development, you can create a directory under

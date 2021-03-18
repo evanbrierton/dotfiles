@@ -1,3 +1,6 @@
+# Get zsh config
+source ../zshrc
+
 # Working directory
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
@@ -9,9 +12,6 @@ $DIR/brew.sh
 
 # Symbolic Links
 $DIR/links.sh
-
-# Hyper
-$DIR/hyper.sh
 
 # ssh
 $DIR/ssh.sh
