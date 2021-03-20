@@ -8,9 +8,13 @@ module.exports = {
     hypest: {
       darkmode: true,
       accentColor: 'magenta',
-      hideControls: false,
-      borders: true
+      borders: true,
       // vibrancy: false,
+    },
+
+    summon: {
+      hideDock: true,
+      hotkey: 'Ctrl+Shift+Space',
     },
 
     hyperCustomTouchbar: [
@@ -186,7 +190,11 @@ module.exports = {
     "hyper-highlight-active-pane",
     // "hyper-tabs-enhanced",
     // "hyperhue",
-    "hyper-hypest"
+    "hyper-hypest",
+    "hyperterm-summon",
+    "hyperterm-paste",
+    "hyperterm-tabs",
+    "hyper-drop-file"
   ],
 
   // in development, you can create a directory under
