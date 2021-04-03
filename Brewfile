@@ -26,16 +26,24 @@ brew "python@3.9"
 brew "libtool"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Mac App Store command-line interface
+brew "mas"
 # Wrap web apps natively
 brew "nativefier"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Development kit for the Java programming language
 brew "openjdk"
+# Count lines of code in many languages
+brew "sloccount"
+# SMART hard drive monitoring
+brew "smartmontools"
 # Simplified and community-driven man pages
 brew "tldr"
 # CLI tool that moves files or folder to the trash
 brew "trash"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Library to create, extract, and modify Windows Imaging files
 brew "wimlib"
 # Sound and music editor
@@ -50,12 +58,8 @@ cask "discord"
 cask "hiddenbar"
 # Terminal built on web technologies
 cask "hyper"
-# iPhone management application
-cask "imazing"
 # Native desktop app for Messenger (formerly Facebook Messenger)
 cask "messenger"
-# App to write, plan, collaborate, and get organized
-cask "notion"
 # Control your smart light system
 cask "philips-hue-sync"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -68,3 +72,13 @@ cask "typora"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "AdBlock Pro", id: 1018301773
+mas "Affinity Photo", id: 824183456
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Remote Mouse", id: 403195710
+mas "Spark", id: 1176895641
+mas "Youtube Ads Auto-Skipper", id: 1542270454
